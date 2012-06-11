@@ -1,0 +1,11 @@
+{
+    "success": true,
+    "customer": {
+        "name": "Foo Bar Customer",
+        "frequentflyer": "1234567890",
+        "booking": "ABCDEFG",
+        "airline": "UNITED",
+        "origin": "San Francisco, CA (SFO)",
+        "destination": "Houston, TX (IAH)",
+    }
+}

@@ -1,0 +1,37 @@
+.px411page {
+    background-size: 100% 375px;
+    background-repeat:repeat-x;
+    background-image: url("../images/247/Px411-Background.png");
+    background-color: #2093c3;
+}
+
+/* =Main Page */
+.logo-bg {
+    background-image: url("../images/247/Px411-TopNav-Background.png");
+    background-size: 100% 40px;
+}
+
+.logo {
+    background-image: url("../images/247/Px411-TopNav-Logo.png");
+    background-size: 65px 22px;
+}
+
+.search-container {
+    background-image: url("../images/247/Px411-Search-Background.png");
+    background-size: 100% 45px;
+}
+
+
+.my-dataview-item {
+    background: #ddd;
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+    border-radius: 1em;
+}
+.my-dataview-item img {
+    float: left;
+    margin-right: 1em;
+}
+.my-dataview-item h2 {
+    font-weight: bold;
+}
