@@ -1,4 +1,4 @@
-Ext.define('demo2.model.Customer', {
+Ext.define('FlightDemo.model.Customer', {
     extend: 'Ext.data.Model',
 
     config: {

@@ -1,16 +1,17 @@
 Ext.application({
-    name: 'demo2',
+    name: 'FlightDemo',
 
-    requires: [
-        'Ext.MessageBox'
-    ],
+    requires: [],
 
+    controllers: ['FlightList'],
     views: ['Main'],
     stores: ['CustomerStore', 'FlightListingStore'],
     models: ['Customer', 'FlightListing'],
 
     launch: function() {
         // Initialize the main view
-        Ext.Viewport.add({xclass: 'demo2.view.Main'});
+        Ext.Viewport.add({
+            xclass: 'FlightDemo.view.Main'
+        });
     },
 });

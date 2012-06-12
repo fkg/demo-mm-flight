@@ -27,6 +27,7 @@
     padding: 1em;
     border-bottom: 1px solid #ccc;
     border-radius: 1em;
+    font-family: Arial, "MS Trebuchet", sans-serif;
 }
 .my-dataview-item img {
     float: left;
@@ -34,4 +35,9 @@
 }
 .my-dataview-item h2 {
     font-weight: bold;
+}
+
+.customer-info-item {
+    padding: 1em;
+    font-family: Arial, "MS Trebuchet", sans-serif;
 }

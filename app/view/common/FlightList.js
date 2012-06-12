@@ -1,7 +1,7 @@
-Ext.define('demo2.view.FlightList', {
+Ext.define('FlightDemo.view.common.FlightList', {
     extend: 'Ext.List',
     xtype: 'flightlist',
-    requires: ['demo2.store.FlightListingStore'],
+    requires: ['FlightDemo.store.FlightListingStore'],
 
     config: {
         itemTpl: new Ext.XTemplate(
@@ -9,5 +9,6 @@ Ext.define('demo2.view.FlightList', {
             ),
         store: 'FlightListingStore',
         baseCls: 'my-dataview',
+        scrollable: false,
     }
 });

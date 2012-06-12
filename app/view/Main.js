@@ -1,22 +1,16 @@
-Ext.define('demo2.view.Main', {
-    extend: 'Ext.Panel',
+Ext.define('FlightDemo.view.Main', {
+    extend: 'Ext.navigation.View',
+    xtype: 'mainview',
     requires: [
-        'demo2.view.CustomerView',
-        'demo2.view.FlightList'
+        'FlightDemo.view.page.FlightList'
     ],
-
     config: {
-        fullscreen: true,
-        layout: 'fit',
+        navigationBar: {
+            ui: 'light'
+        },
         items: [
             {
-                docked: 'top',
-                xtype: 'customerview',
-                height: 100,
-            },
-            {
-                xtype: 'flightlist',
-                height: 300,
+                xtype: 'flightlistpage'
             }
         ]
     }

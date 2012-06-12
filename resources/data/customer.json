@@ -1,9 +1,9 @@
 {
     "success": true,
     "customer": {
-        "name": "Foo Bar Customer",
+        "name": "King Julian XIII",
         "frequentflyer": "1234567890",
-        "booking": "ABCDEFG",
+        "booking": "ABCDEF",
         "airline": "UNITED",
         "origin": "San Francisco, CA (SFO)",
         "destination": "Houston, TX (IAH)",

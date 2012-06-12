@@ -1,9 +1,9 @@
-Ext.define('demo2.store.FlightListingStore', {
+Ext.define('FlightDemo.store.FlightListingStore', {
     extend: 'Ext.data.Store',
 
     config: {
         proxy: {
-            model: 'demo2.model.FlightListing',
+            model: 'FlightDemo.model.FlightListing',
             type: 'ajax',
             url: 'resources/data/flightlisting.json',
             reader: {
