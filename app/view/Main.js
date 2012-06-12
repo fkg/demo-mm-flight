@@ -5,6 +5,7 @@ Ext.define('FlightDemo.view.Main', {
         'FlightDemo.view.page.FlightList'
     ],
     config: {
+        autoDestroy: false,
         navigationBar: {
             ui: 'light'
         },

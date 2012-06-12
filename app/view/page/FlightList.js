@@ -6,6 +6,7 @@ Ext.define('FlightDemo.view.page.FlightList', {
         'FlightDemo.view.common.FlightList'
     ],
     config: {
+        title: 'Flight List',
         items: [
             {
                 xtype: 'customerview',

@@ -3,7 +3,11 @@ Ext.application({
 
     requires: [],
 
-    controllers: ['FlightList'],
+    controllers: [
+        'Main',
+        'FlightList',
+        'FlightDetails',
+    ],
     views: ['Main'],
     stores: ['CustomerStore', 'FlightListingStore'],
     models: ['Customer', 'FlightListing'],
