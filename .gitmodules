@@ -1,0 +1,3 @@
+[submodule "resources/common"]
+	path = resources/common
+	url = git@github.com:/mbodell/24-7-demo-repository.git
